@@ -1,7 +1,63 @@
 body {
   background-color: #47a3da;
   color: #fff;
+  /*Make sure to enable the above two properties eventually*/
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+
+/*Styling for the <section> containing all three column <div>s*/
+
+#columnsHolder {
   border-width: 1px;
-  border-color: #fff;
+  border-color: black;
   border-style: solid;
+  /*delete the three lines above eventually*/
+  width: 94%;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+/*Styling for the individual columns*/
+
+.individualColumns {
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  /*delete the three lines above eventually*/
+  display: inline-block;
+  width: 30%;
+  margin: 1.1em;
+}
+
+/*Styling for all field labels*/
+
+label {
+  display: block;
+}
+
+/*Styling for all fields*/
+
+
+
+/*Styling for the send your data button's containing section*/
+
+#buttonDivContainer {
+  margin: 1.1em;
+  text-align: center;
+}
+
+/*Styling for the send your data button*/
+
+#sydButton {
+  text-align: center;
+  font-size: 1.1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  color: #fff;
+  background-color: #10689a;
+  /*mouseover background: #1478b1;*/
+  border-style: none;
+  border-radius: .2em;
 }
