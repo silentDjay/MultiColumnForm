@@ -26,22 +26,38 @@ body {
   /*delete the three lines above eventually*/
   display: inline-block;
   width: 30%;
-  margin: 1.1em;
+  margin-left: 1.1em;
+  margin-right: 1.1em;
+  margin-bottom: 1.1em;
 }
 
 /*Styling for all field labels*/
 
 label {
   display: block;
+  margin-top: 2em;
+  margin-bottom: .3em;
 }
 
 /*Styling for all fields*/
 
+input {
+  width: 100%;
+  border-style: none;
+}
 
+.fields {
+}
+
+/*Styling for all text fields*/
+
+.textFields {
+}
 
 /*Styling for the send your data button's containing section*/
 
 #buttonDivContainer {
+  display: block;
   margin: 1.1em;
   text-align: center;
 }
