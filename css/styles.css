@@ -7,10 +7,6 @@ body {
 /*Styling for the <section> containing all three column <div>s*/
 
 #columnsHolder {
-  border-width: 1px;
-  border-color: black;
-  border-style: solid;
-  /*delete the three lines above eventually*/
   width: 94%;
   margin-left: 3%;
   margin-top: 3%;
@@ -19,15 +15,17 @@ body {
 /*Styling for the individual columns*/
 
 .individualColumns {
-  border-width: 1px;
-  border-color: black;
-  border-style: solid;
-  /*delete the three lines above eventually*/
   display: inline-block;
   width: 30%;
   margin-left: 1.1em;
   margin-right: 1.1em;
   margin-bottom: 1.1em;
+}
+
+/*Styling to fix the center column*/
+
+#column2Container {
+  /*margin-top: -1em;*/
 }
 
 /*Styling for all field labels*/
