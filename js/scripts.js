@@ -19,6 +19,7 @@ var lastNameClick = document.querySelector("#lastNameDiv");
 var lastNameBorderSwitch = document.querySelector("#lastName");
 
 firstNameClick.addEventListener("click", function() {
+  // *.style.borderColor = "#fff"; // try document.querySelectorAll("*") ???
   firstNameBorderSwitch.style.borderColor = "#10689a";//changes border color to 'activated color'
   lastNameBorderSwitch.style.borderColor = "#fff";//changes other field(s)' borders back to white (there's gotta be a global way to do this - maybe create a global activated = true/false variable for each field and set it to false when anything else is clicked!!!!)
   // et cetera as nauseum (I hope not)
@@ -33,7 +34,7 @@ lastNameClick.addEventListener("click", function() {
 
 //for the rest of this, you'll need to create a var for the button, as well as a var for each of the fields INPUTS. Then, create an eventlistener to console.log all of the field input vars upon the button click. ONE THING TO TRY: RENAME THE FIELDS AS ITERATIVE VARIABLES, ITERATE THROUGH THE VARIABLE NAMES TO CONSOLE.LOG THEM
 
-var sydClick = document.querySelector("#sydButton");
+var sydClick = document.querySelector("#sydButton");//you already defined a variable with this same value
 var firstNameInput = document.querySelector("#firstName");
 var lastNameInput = document.querySelector("#lastName");
 
