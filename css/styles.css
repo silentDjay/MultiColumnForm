@@ -1,7 +1,6 @@
 body {
   background-color: #47a3da;
   color: #fff;
-  /*Make sure to enable the above two properties eventually*/
   font-family: 'Lato', Calibri, Arial, sans-serif;
 }
 
@@ -37,21 +36,45 @@ label {
   display: block;
   margin-top: 2em;
   margin-bottom: .3em;
+  font-size: 1.3em;
 }
 
-/*Styling for all fields*/
+/*Styling for all text AND textarea fields*/
 
-input {
+.textThing {
+  width: 95%;
+  font-size: 1.4em;
+  padding: .3em;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #fff;
+  color: #fff;
+  background: transparent;
+  margin-left: -1px;
+}
+
+/*Styling for placeholders in text fields*/
+
+::-webkit-input-placeholder {
+    color: #10689a;
+    font-style: italic;
+}
+
+/*Styling for all textarea fields*/
+
+textarea {
+  min-height: 8em;
+  resize: none;
+  /*many other styles inherited from class .textThing*/
+}
+
+/*Styling for all dropdown fields*/
+
+select {
   width: 100%;
-  border-style: none;
-}
-
-.fields {
-}
-
-/*Styling for all text fields*/
-
-.textFields {
+  background: transparent;
+  color: #fff;
+  font-size: 1.4em;
 }
 
 /*Styling for the send your data button's containing section*/

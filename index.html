@@ -10,19 +10,19 @@
     <section id="columnsHolder">
       <div class="individualColumns" id="column1Container">
         <div class="field textField" id="firstNameDiv">
-          <label for="firstName">First Name</label>
-          <input type="text" id="firstName" placeholder="Hank">
+          <label for="firstName">FIRST NAME</label>
+          <input class="textThing" type="text" id="firstName" placeholder="Hank">
         </div>
         <div class="field textField" id="lastNameDiv">
-          <label for="lastName">Last Name</label>
-          <input type="text" id="lastName" placeholder="McKringleberry">
+          <label for="lastName">LAST NAME</label>
+          <input class="textThing" type="text" id="lastName" placeholder="McKringleberry">
         </div>
         <div class="field textField" id="emailAddressDiv">
-          <label for="emailAddress">Email Address</label>
-          <input type="text" id="emailAddress" placeholder="full name">
+          <label for="emailAddress">EMAIL ADDRESS</label>
+          <input class="textThing" type="text" id="emailAddress" placeholder="hank@mckringleberry.org">
         </div>
         <div class="field dropDown">
-          <label for="chooseCountry">Country</label>
+          <label for="chooseCountry">COUNTRY</label>
           <select id="chooseCountry">
             <option value="" selected disabled>Choose a country</option>
             <option>
@@ -37,22 +37,15 @@
           </select>
         </div>
         <div class="field textField" id="biographyDiv">
-          <label for="biography">Email Address</label>
-          <input type="textArea" id="biography">
+          <label for="biography">BIOGRAPHY</label>
+          <textarea class="textThing" id="biography"></textarea>
         </div>
       </div>
       <div class="individualColumns" id="column2Container">
-        Parameters
-
-separator
-Optional. Specifies a string to separate each element of the array. The separator is converted to a string if necessary. If omitted, the array elements are separated with a comma. If separator is an empty string, all elements are joined without any characters in between them.
-DescriptionEDIT
-The string conversions of all array elements are joined into one string. If an element is undefined or null, it is converted to the empty string.
-
-ExamplesEDIT
-Joining an array four different ways
-
-The following example creates an array, a, with three elements, then joins the array four times: using the default separator, then a comma and a space, then a plus and an empty string.
+        <div class="field textField" id="phoneNumberDiv">
+          <label for="phoneNumber">PHONE NUMBER</label>
+          <input class="textThing" type="text" id="phoneNumber" placeholder="Hank">
+        </div>
       </div>
       <div class="individualColumns" id="column3Container">
         Parameters
