@@ -20,12 +20,7 @@ body {
   margin-left: 1.1em;
   margin-right: 1.1em;
   margin-bottom: 1.1em;
-}
-
-/*Styling to fix the center column*/
-
-#column2Container {
-  /*margin-top: -1em;*/
+  vertical-align: top;
 }
 
 /*Styling for all field labels*/
@@ -94,7 +89,6 @@ select {
   padding-right: 1em;
   color: #fff;
   background-color: #10689a;
-  /*mouseover background: #1478b1;*/
   border-style: none;
   border-radius: .2em;
 }
